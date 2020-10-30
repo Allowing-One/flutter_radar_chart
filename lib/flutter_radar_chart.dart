@@ -314,7 +314,7 @@ class RadarChartPainter extends CustomPainter {
 
       path.close();
       canvas.drawPath(path, graphPaint);
-      canvas.drawPath(path, graphOutlinePaint);
+      // canvas.drawPath(path, graphOutlinePaint);
     });
   }
 
